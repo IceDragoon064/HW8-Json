@@ -1,0 +1,43 @@
+#entryBox{
+	border-radius: 25px;
+	width: 50%;
+	border: 5px solid black;
+	padding: 50px;
+	margin: 20px;
+	text-align: center;
+	}
+	
+#identifier{
+	width: 50%;
+	padding-left:10px;
+	text-align: right;
+	}
+	
+#inputField{
+	width: 50%;
+	align: left;
+	}
+	
+body{
+	background-color: #b6cfde;
+	}
+
+#storyBox{
+	display: none;
+	font-family: 'Trebuchet MS';
+	border-radius: 25px;
+	width: 50%;
+	border: 5px solid black;
+	padding: 50px;
+	margin: 20px;
+	text-align: center;
+}
+
+#storyTitle{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+span{
+	color: #a60000;
+}

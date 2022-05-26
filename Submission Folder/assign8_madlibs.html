@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title id="siteTitle"></title>
+<link rel="stylesheet" href="assign8.css">
+<script src="./assign8.js"></script>
+	<body>
+		<!-- Center the element with the page -->
+		<center>
+			<h2 text-align:center>Mad Libs</h2>
+			<form id="entryBox" action="/assign8.js" onsubmit="StartStory()">
+				<!-- Use table to properly align label with input box -->
+				<table align="center">
+					<tr>
+						<td id="identifier"><label for="cName">Character Name:</label></td>
+						<td id="inputField"><input type="text" id="cName" name="cName"></td>
+					</tr>
+					<tr>
+						<td id="identifier"><label for="oName">Object:</label></td>
+						<td id="inputField"><input type="text" id="oName" name="oName"></td>
+					</tr>
+					<tr>
+						<td id="identifier"><label for="adjective">Adjective:</label></td>
+						<td id="inputField"><input type="text" id="adjective" name="abjective"></td>
+			
+					</tr>
+					<tr>
+						<td id="identifier"><label for="adverb">Adverb:</label></td>
+						<td id="inputField"><input type="text" id="adverb" name="adverb"></td>
+					</tr>
+				</table>
+			</form>
+			<button onclick="StartStory()">Tell Story</button>
+		</center>
+		<!-- The story box with title and story -->
+		<center>
+			<div id="storyBox">
+				<p id="storyTitle"></p>
+				<p id="storyEntry"></p>
+			</div>	
+		</center>	
+	</body>
+</html>
